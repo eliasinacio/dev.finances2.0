@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import './styles.sass'
+import Header from '../../components/Header'
+import './styles.scss'
 
 function Home() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="Home">
-      
-    </div>
+    <>
+      <Header />
+    </>
   )
 }
 
